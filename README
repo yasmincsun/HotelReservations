@@ -1,2 +1,10 @@
 UserStories: 
   Make a reservation
+
+Classes and Methods:
+  reservations
+  room
+  hotel
+  customers
+  payment
+  admin
