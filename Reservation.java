@@ -1,7 +1,7 @@
 public class Reservation {
     String name;
     int days;
-    Date startDate;
+    int startDate;
     int personID;
     public Reservation(String name, int days, Date startDate, int personID){
         this.name=name;
@@ -10,16 +10,11 @@ public class Reservation {
         this.personID=personID;
     }
 
-    void setDate(int month, int day, int year){
-        Date date=new Date(month, day, year);
-        startDate=date;
+    void setDate(int date){
+        this.startDate=date;
     }
     void setName(String name){
         this.name=name;
-    }
-    void setDate(int days, Date startDate){
-        this.days=days;
-        this.startDate=startDate;
     }
 
     void setID(int personID){
@@ -35,7 +30,7 @@ public class Reservation {
     public int getPersonID() {
         return personID;
     }
-    public Date getStartDate() {
+    public int getStartDate() {
         return startDate;
     }
 
