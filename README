@@ -2,7 +2,8 @@ UserStories:
   Make a reservation
 
 Classes and Methods:
-  reservations
+  reservations class done (NV)
+  managareservation.java(NV) > these add functionality to reservation.java
   room
   hotel
   customers
