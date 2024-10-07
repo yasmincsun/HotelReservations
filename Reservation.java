@@ -3,7 +3,7 @@ public class Reservation {
     int days;
     int startDate;
     int personID;
-    public Reservation(String name, int days, Date startDate, int personID){
+    public Reservation(String name, int days, int startDate, int personID){
         this.name=name;
         this.days=days;
         this.startDate=startDate;
