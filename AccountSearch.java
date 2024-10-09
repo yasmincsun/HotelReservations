@@ -38,7 +38,7 @@ class AccountSearch {
 
 class AccountSearchCaller {
     public static void main(String[] args) {
-        String accountID = "12345"; // This should be provided dynamically
+        // String accountID = "12345"; // This should be provided dynamically
         AccountSearch accountSearch = new AccountSearch(accountID);
 
         try {
